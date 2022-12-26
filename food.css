@@ -1,0 +1,46 @@
+table, th, td {
+    border: 1px solid;
+  }
+  #table{
+border: 1px solid black;
+  }
+  /*
+#button{
+  margin-top: 8px;
+  border: 1px solid red;
+}
+#button2{
+  margin-top: 8px;
+  border: 1px solid red;
+}
+#button3{
+  margin-top: 8px;
+  border: 1px solid red;
+}
+#button4{
+  margin-top: 8px;
+  border: 1px solid red;
+}
+#button5{
+  margin-top: 8px;
+  border: 1px solid red;
+}
+#button6{
+  margin-top: 8px;
+  border: 1px solid red;
+}
+#button7{
+  margin-top: 8px;
+  border: 1px solid red;
+}
+*/
+div.button{
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+button{
+  background-color: lightblue;
+  color: red;
+  padding: 4px;
+}

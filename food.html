@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="food.css">
+    <script src="food.js"></script>
+    <title>Food Project</title>
+</head>
+<body>
+    <h1>This is to check the time table of your meal</h1>
+<p id="play"></p>
+
+    <div id="table">
+      <h2>Food Calender</h2>
+    <table>
+        <tr>
+          <td>Bread & Tea</td>
+          <td>Plantain & Egg</td>
+          <td>Rice & Stew</td>
+          <td>Bread & Sardine</td>
+          <td>Toast Bread</td>
+          <td>Fried Rice & Chicken</td>
+          <td>Jellof Rice</td>
+          <td>Ofada Rice</td>
+          <td>Porridge</td>
+          <td>CocoaYam & Sauce</td>
+        </tr>
+        <tr>
+          <td>Corn Flaske</td>
+          <td>Golden Morn</td>
+          <td>Salad</td>
+          <td>Vegetables</td>
+          <td>Fruit Salad</td>
+          <td>Yam & Stew</td>
+          <td>Fried Yam & Egg</td>
+          <td>Roasted Yam</td>
+          <td>Spagetti & Egg</td>
+          <td>Jellof Spagetti</td>
+        </tr>
+        <tr>
+          <td>Porridge Beans</td>
+          <td>MoiMoi & Eko</td>
+          <td>Moimoi & Ogi</td>
+          <td>Akara & Bread</td>
+          <td>Chinese Rice</td>
+          <td>Amala & Ewedu</td>
+          <td>Banga & Oha</td>
+          <td>FuFu and Efo</td>
+          <td>mMoiMoi & Bread</td>
+          <td>Plantain Porridge</td>
+        </tr>
+        <tr>
+          <td>Jellofrice & Salad</td>
+          <td>White Rice & Beef</td>
+          <td>Yam & Combeef</td>
+          <td>Toast bread & Tea</td>
+          <td>Oat Milk</td>
+          <td>Biscuit Flaske</td>
+          <td>Roasted PLantain & Fish</td>
+          <td>Ewa Goin & Ponmo/td>
+          <td>Yam & Potatoe</td>
+          <td>Porridge Beans</td>
+        </tr>
+        <tr>
+          <td>Eko & Efo</td>
+          <td>Garri & Cocoanut</td>
+          <td>Friedrice & Salad</td>
+          <td>Beans & Corn</td>
+          <td>Akara & Pap</td>
+          <td>Eba & Okro</td>
+          <td>PondoYam & Edikinko</td>
+          <td>Orange & Apple</td>
+          <td>Scrampled Egg & Bread</td>
+          <td>MoiMoi & Bread</td>
+        </tr>
+        <tr>
+          <td>Snacks & drink</td>
+          <td>Milk & Biscuit</td>
+          <td>Beans & Eko</td>
+          <td>Toast bread & Fish</td>
+          <td>Tomatoes & Onions</td>
+          <td>Jellof rice & Beef</td>
+          <td>Beans & Bread</td>
+          <td>Vegetables & Dry Fish</td>
+          <td>Indomie & Egg</td>
+          <td>Roasted Yam & Sauce</td>
+        </tr>
+        <tr>
+          <td>Abacha & Ugba</td>
+          <td>Pounded yam & Afang</td>
+          <td>Amala & Egusi</td>
+          <td>Dodo & Spagetti</td>
+          <td>Fruit Salad</td>
+          <td>Akara & Pap</td>
+          <td>Jellof Macaroni</td>
+          <td>Beans & Sweet Potatoe</td>
+          <td>Macaroni & Egg</td>
+          <td>Chinese Rice</td>
+        </tr>
+        <tr>
+          <td>Fried Irish Potatoe</td>
+          <td>Bioled Irish Potatoe & Stew</td>
+          <td>Cocoa Yam & Palm oil</td>
+          <td>Boiled Cocoa Yam</td>
+          <td>Shisa nyama</td>
+          <td>Piri piri Chicken</td>
+          <td>Bunny Chow</td>
+          <td>Kapenta & Salad</td>
+          <td>Chambo & Nsima/td>
+          <td>Namibian Venison</td>
+        </tr>
+        <tr>
+          <td>Cape Breyani</td>
+          <td>Zanzibar</td>
+          <td>Nyama na irio</td>
+          <td>Potjiekos & Stew</td>
+          <td>Ful Medames</td>
+          <td>Pastilla au Pigeon</td>
+          <td>Cocoa pops</td>
+          <td>Banana & Groundnut</td>
+          <td>Suya & Garri</td>
+          <td>Amala & Banga</td>
+        </tr>
+        <tr>
+          <td>Bread & Sardine</td>
+          <td>Fufu & Oha</td>
+          <td>MoiMoi & Ogi</td>
+          <td>Tajine</td>
+          <td>Bobotie</td>
+          <td>Nyama Choma</td>
+          <td>Couscous</td>
+          <td>Harira</td>
+          <td>Shakshouka</td>
+          <td>Chakalaka</td>
+        </tr>
+      </table>
+</div>
+<div class="container"> <!--Container-->
+<!--Monday-->
+<div class="button" id="button">
+      <button type="button" onclick="myFunction()">Meals on Mondays</button>
+      <p id="demo"></p>   
+
+      <button type="button" onclick="myOwn()">Check the meal for the day</button>
+  <h2 id="demo1"></h2>
+</div>
+
+<!--Tuesday-->
+<div class="button" id="button2">
+  <button type="button" onclick="myTeusday()">Meals on Teusdays</button>
+  <p id="demox"></p>   
+
+  <button type="button" onclick="myOwn2()">Check the meal for the day</button>
+<h2 id="demo2"></h2>
+</div>
+<!--Wednesday-->
+<div class="button" id="button3">
+  <button type="button" onclick="myWed()">Meals on Wednesday</button>
+  <p id="demoy"></p>   
+
+  <button type="button" onclick="myOwn3()">Check the meal for the day</button>
+<h2 id="demo3"></h2>
+</div>
+<!--Thursday-->
+<div class="button" id="button4">
+  <button type="button" onclick="myThu()">Meals on Thursday</button>
+  <p id="demoz"></p>   
+
+  <button type="button" onclick="myOwn4()">Check the meal for the day</button>
+<h2 id="demo4"></h2>
+</div>
+<!--Friday-->
+<div class="button" id="button5">
+  <button type="button" onclick="myFri()">Meals on Friday</button>
+  <p id="demoa"></p>   
+
+  <button type="button" onclick="myOwn5()">Check the meal for the day</button>
+<h2 id="demo5"></h2>
+</div>
+<!--Saturday-->
+<div class="button" id="button6">
+  <button type="button" onclick="mySat()">Meals on Saturday</button>
+  <p id="demob"></p>   
+
+  <button type="button" onclick="myOwn6()">Check the meal for the day</button>
+<h2 id="demo6"></h2>
+</div>
+<!--Sunday-->
+<div class="button" id="button7">
+  <button type="button" onclick="mySun()">Meals on Sunday</button>
+  <p id="democ"></p>   
+
+  <button type="button" onclick="myOwn7()">Check the meal for the day</button>
+<h2 id="demo7"></h2>
+</div>
+
+</div> <!--End of container-->
+</body>
+</html>
